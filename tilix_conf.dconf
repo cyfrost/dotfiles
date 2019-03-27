@@ -23,7 +23,17 @@ quake-width-percent=100
 quake-window-position='top'
 
 [profiles/2b7c4080-0ddd-46c5-8f23-563fd3ba789d]
+foreground-color='#FFFFFF'
 visible-name='Default'
+palette=['#4F4F4F', '#FA6C60', '#A8FF60', '#FFFEB7', '#96CAFE', '#FA73FD', '#C6C5FE', '#EFEDEF', '#7B7B7B', '#FCB6B0', '#CFFFAB', '#FFFFCC', '#B5DCFF', '#FB9CFE', '#E0E0FE', '#FFFFFF']
+bold-is-bright=true
+badge-color-set=false
+cursor-colors-set=false
+highlight-colors-set=false
+use-theme-colors=false
+bold-color-set=false
+scrollback-unlimited=true
+background-color='#000000'
 
 [keybindings]
 terminal-file-browser='<Primary><Shift>e'
