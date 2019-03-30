@@ -379,14 +379,14 @@
       <key>keybindings/local/next_tab</key>
       <schema_key>/schemas/apps/guake/keybindings/local/next_tab</schema_key>
       <value>
-        <string>&lt;Primary&gt;Right</string>
+        <string>&lt;Alt&gt;Right</string>
       </value>
     </entry>
     <entry>
       <key>keybindings/local/previous_tab</key>
       <schema_key>/schemas/apps/guake/keybindings/local/previous_tab</schema_key>
       <value>
-        <string>&lt;Primary&gt;Left</string>
+        <string>&lt;Alt&gt;Left</string>
       </value>
     </entry>
     <entry>
