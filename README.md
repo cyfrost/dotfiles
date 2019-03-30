@@ -1,3 +1,3 @@
-## var
+## dotfiles
 
-a place to put whatever
+This repo contains some of my config files
