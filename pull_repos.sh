@@ -38,7 +38,7 @@ cd $REPOS_DIR
 
 for repo in "${REPOS_LIST[@]}"
 do
-    printf "\n\n"
+    printf "\n"
     repo=$(echo "$repo" | tr -d \')
     git clone "$repo";
 done
