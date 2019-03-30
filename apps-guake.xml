@@ -239,7 +239,7 @@
     <entry>
       <key>general/window_height</key>
       <value>
-        <int>45</int>
+        <int>35</int>
       </value>
     </entry>
     <entry>
@@ -323,7 +323,7 @@
       <key>keybindings/local/close_tab</key>
       <schema_key>/schemas/apps/guake/keybindings/local/close_tab</schema_key>
       <value>
-        <string>&lt;Control&gt;&lt;Shift&gt;w</string>
+        <string>&lt;Primary&gt;w</string>
       </value>
     </entry>
     <entry>
@@ -372,21 +372,21 @@
       <key>keybindings/local/new_tab</key>
       <schema_key>/schemas/apps/guake/keybindings/local/new_tab</schema_key>
       <value>
-        <string>&lt;Control&gt;&lt;Shift&gt;t</string>
+        <string>&lt;Primary&gt;t</string>
       </value>
     </entry>
     <entry>
       <key>keybindings/local/next_tab</key>
       <schema_key>/schemas/apps/guake/keybindings/local/next_tab</schema_key>
       <value>
-        <string>&lt;Control&gt;Page_Down</string>
+        <string>&lt;Primary&gt;Right</string>
       </value>
     </entry>
     <entry>
       <key>keybindings/local/previous_tab</key>
       <schema_key>/schemas/apps/guake/keybindings/local/previous_tab</schema_key>
       <value>
-        <string>&lt;Control&gt;Page_Up</string>
+        <string>&lt;Primary&gt;Left</string>
       </value>
     </entry>
     <entry>
@@ -498,7 +498,7 @@
       <key>keybindings/local/toggle_fullscreen</key>
       <schema_key>/schemas/apps/guake/keybindings/local/toggle_fullscreen</schema_key>
       <value>
-        <string>F11</string>
+        <string>&lt;Primary&gt;f</string>
       </value>
     </entry>
     <entry>
