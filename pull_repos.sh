@@ -2,7 +2,7 @@
 
 GITHUB_REPOS_SCRIPT="./get_repo_urls.py"
 REPOS_DIR="$HOME/repos"
-AUTH_TOKEN=""
+AUTH_TOKEN="$1"
 CUR_DIR=`pwd`
 
 #
