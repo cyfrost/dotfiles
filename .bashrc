@@ -25,6 +25,10 @@ output_filename="${1%.*}"
 gcc "$1" -o "$output_filename" && ./$output_filename
 }
 
+function revert(){
+NUM_COMMITS_TO_REVERT="$1" && git revert --no-commit HEAD~$NUM_COMMITS_TO_REVERT..
+}
+
 alias ins='sudo dnf install -y $1'
 alias up='sudo dnf upgrade --best --allowerasing --refresh && sudo dnf autoremove'
 alias u='sudo dnf update -y && sudo dnf upgrade -y && sudo dnf autoremove -y'
