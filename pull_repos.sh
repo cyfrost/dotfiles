@@ -50,4 +50,6 @@ for d in `find . -name .git -type d`; do
    cd - > /dev/null;
 done;
 
+rm -f $GITHUB_REPOS_SCRIPT;
+
 printf "\n" && cd $CUR_DIR
