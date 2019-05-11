@@ -239,14 +239,14 @@
     <entry>
       <key>general/window_height</key>
       <value>
-        <int>25</int>
+        <int>27</int>
       </value>
     </entry>
     <entry>
       <key>general/window_height_f</key>
       <schema_key>/schemas/apps/guake/general/window_height_f</schema_key>
       <value>
-        <float>25.3704</float>
+        <float>27.222200000000001</float>
       </value>
     </entry>
     <entry>
@@ -267,7 +267,7 @@
       <key>general/window_tabbar</key>
       <schema_key>/schemas/apps/guake/general/window_tabbar</schema_key>
       <value>
-        <bool>false</bool>
+        <bool>true</bool>
       </value>
     </entry>
     <entry>
