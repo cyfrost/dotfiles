@@ -1,0 +1,12 @@
+[Unit]
+Description=Enable WOL for ethernet interface
+Requires=network.target
+After=network.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/bin/bash -c '/usr/sbin/ethtool -s $(ls /sys/class/net | grep enp) wol g'
+
+[Install]
+WantedBy=multi-user.target
