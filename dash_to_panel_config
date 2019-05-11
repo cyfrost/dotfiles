@@ -1,5 +1,5 @@
 [/]
-appicon-margin=4
+appicon-margin=2
 dot-color-1='#5294e2'
 dot-color-2='#5294e2'
 dot-color-3='#5294e2'
@@ -17,7 +17,7 @@ hot-keys=true
 hotkeys-overlay-combo='TEMPORARILY'
 isolate-workspaces=true
 middle-click-action='LAUNCH'
-panel-size=38
+panel-size=36
 primary-monitor=-1
 secondarymenu-contains-showdetails=true
 shift-click-action='QUIT'
