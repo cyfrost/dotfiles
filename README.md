@@ -2,9 +2,9 @@
 
 This repo contains some of my config files
 
-# Backup commands
+## Backup and Restore
 
-## Guake Terminal Config
+### Guake Terminal Config
 
 Backup:
 ```
@@ -17,7 +17,7 @@ gconftool-2 --load apps-guake.xml
 gconftool-2 --load schemas-apps-guake.xml
 ```
 
-## Tilix Config
+### Tilix Config
 
 Backup:
 
@@ -31,7 +31,7 @@ or
 
 `curl -s "https://raw.githubusercontent.com/cyfrost/dotfiles/master/tilix_conf.dconf" | dconf load /com/gexperts/Tilix/`
 
-## Dash To Panel config
+### Dash To Panel config
 
 Backup:
 
