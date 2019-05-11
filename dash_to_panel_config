@@ -31,3 +31,6 @@ show-showdesktop-hover=false
 stockgs-keep-dash=false
 stockgs-panelbtn-click-only=false
 taskbar-position='LEFTPANEL'
+trans-panel-opacity=1.0
+trans-use-custom-bg=true
+trans-use-custom-opacity=true
