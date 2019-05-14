@@ -1,5 +1,6 @@
 [/]
 appicon-margin=2
+click-action='TOGGLE-SHOWPREVIEW'
 dot-color-1='#5294e2'
 dot-color-2='#5294e2'
 dot-color-3='#5294e2'
@@ -28,6 +29,8 @@ show-apps-icon-file=''
 show-apps-icon-side-padding=8
 show-favorites=true
 show-showdesktop-hover=false
+show-window-previews=true
+show-window-previews-timeout=100
 stockgs-keep-dash=false
 stockgs-panelbtn-click-only=false
 taskbar-position='LEFTPANEL'
