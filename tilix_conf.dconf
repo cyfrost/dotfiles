@@ -21,7 +21,7 @@ theme-variant='dark'
 use-overlay-scrollbar=true
 warn-vte-config-issue=false
 window-save-state=true
-window-state=87168
+window-state=128
 
 [keybindings]
 app-preferences='<Primary>s'
@@ -34,14 +34,15 @@ terminal-file-browser='<Primary><Shift>e'
 win-fullscreen='<Primary>f'
 
 [profiles/2b7c4080-0ddd-46c5-8f23-563fd3ba789d]
-background-color='#000000'
+background-color='#000000000000'
+badge-color='#AC7EA8'
 badge-color-set=false
 bold-color-set=false
 bold-is-bright=true
 cursor-colors-set=false
 foreground-color='#FFFFFF'
 highlight-colors-set=false
-palette=['#4F4F4F', '#FA6C60', '#A8FF60', '#FFFEB7', '#96CAFE', '#FA73FD', '#C6C5FE', '#EFEDEF', '#7B7B7B', '#FCB6B0', '#CFFFAB', '#FFFFCC', '#B5DCFF', '#FB9CFE', '#E0E0FE', '#FFFFFF']
+palette=['#000000', '#CC0000', '#4D9A05', '#C3A000', '#3464A3', '#754F7B', '#05979A', '#D3D6CF', '#545652', '#EF2828', '#89E234', '#FBE84F', '#729ECF', '#AC7EA8', '#34E2E2', '#EDEDEB']
 scrollback-unlimited=true
 use-theme-colors=false
 visible-name='Default'
