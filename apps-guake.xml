@@ -239,14 +239,14 @@
     <entry>
       <key>general/window_height</key>
       <value>
-        <int>27</int>
+        <int>29</int>
       </value>
     </entry>
     <entry>
       <key>general/window_height_f</key>
       <schema_key>/schemas/apps/guake/general/window_height_f</schema_key>
       <value>
-        <float>27.222200000000001</float>
+        <float>29.2593</float>
       </value>
     </entry>
     <entry>
