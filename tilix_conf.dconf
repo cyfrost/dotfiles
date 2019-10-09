@@ -22,7 +22,7 @@ theme-variant='dark'
 use-overlay-scrollbar=true
 warn-vte-config-issue=false
 window-save-state=true
-window-state=43780
+window-state=87168
 
 [keybindings]
 app-preferences='<Primary>s'
