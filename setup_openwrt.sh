@@ -1,7 +1,3 @@
-#!/bin/sh
-
-set -e
-
 if [ -z ${ROOT_PASSWD+x} ] || [ -z ${ZONENAME+x} ] || [ -z ${TIMEZONE+x} ] || [ -z ${PPPOE_USERNAME+x} ] || [ -z ${PPPOE_PASSWORD+x} ] || [ -z ${SSID_5GHZ+x} ] || [ -z ${SSID_2GHZ+x} ] || [ -z ${AP_PASSWORD+x} ] || [ -z ${RADIO_LOC_CODE+x} ]; then
 	printf "\n\nError: one or more config variables are not set, Abort.\n\n";
 fi
