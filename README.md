@@ -40,3 +40,16 @@ Backup:
 Restore:
 
 `dconf load /org/gnome/shell/extensions/dash-to-panel/ < dash_to_panel.config`
+
+
+## Tips
+
+Encrypt plain-text secrets using openssl 4k bits
+
+```
+KEYFILE="secrets.txt" && \
+VAULT_FILE="router_keys.bin" && \
+openssl genrsa -out "$KEYFILE" 4096 && \
+echo 'THIS IS MY SECRET STUFF PLAIN TEXT' | openssl rsautl -inkey "$KEYFILE" -encrypt >"$VAULT_FILE" && \
+openssl rsautl -inkey "$KEYFILE" -decrypt <"$VAULT_FILE"
+```
