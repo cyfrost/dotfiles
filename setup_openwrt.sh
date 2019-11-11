@@ -20,8 +20,10 @@ uci set system.@system[0].hostname="$HOSTNAME"
 uci commit system
 
 echo 'Updating software packages'
-opkg update
-opkg install luci luci-ssl tmux vim
+{
+	opkg update
+	opkg install luci luci-ssl tmux vim
+} > /dev/null
 
 echo 'Setting timezone info'
 uci set system.@system[0].zonename="$ZONENAME"
