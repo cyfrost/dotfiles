@@ -63,7 +63,7 @@ uci set wireless.cyrus.device='radio1'
 uci set wireless.cyrus.mode='ap'
 uci set wireless.cyrus.network='lan'
 uci set wireless.cyrus.hidden='0'
-uci set wireless.cyrus.ssid='$SSID_2GHZ'
+uci set wireless.cyrus.ssid="$SSID_2GHZ"
 uci set wireless.cyrus.encryption='psk2'
 uci set wireless.cyrus.key="$AP_PASSWORD"
 
