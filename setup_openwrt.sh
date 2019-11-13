@@ -67,6 +67,11 @@ uci set wireless.cyrus.ssid="$SSID_2GHZ"
 uci set wireless.cyrus.encryption='psk2'
 uci set wireless.cyrus.key="$AP_PASSWORD"
 
+echo 'Disabling a few sites in network'
+uci add_list dhcp.@dnsmasq[0].server='/chess.com/'
+uci add_list dhcp.@dnsmasq[0].server='/lichess.org/'
+uci commit dhcp
+
 echo "Setting radios' locations"
 uci set wireless.radio0.country="$RADIO_LOC_CODE"
 uci set wireless.radio1.country="$RADIO_LOC_CODE"
