@@ -1,3 +1,7 @@
+echo "======================================="
+echo "	Configuring OpenWRT	     "
+echo "======================================="
+
 if [ -z ${ROOT_PASSWD+x} ] || [ -z ${ZONENAME+x} ] || [ -z ${TIMEZONE+x} ] || [ -z ${PPPOE_USERNAME+x} ] || [ -z ${PPPOE_PASSWORD+x} ] || [ -z ${SSID_5GHZ+x} ] || [ -z ${SSID_2GHZ+x} ] || [ -z ${AP_PASSWORD+x} ] || [ -z ${RADIO_LOC_CODE+x} ]; then
 	printf "\n\nError: one or more config variables are not set, Abort.\n\n"
 	exit 2
@@ -8,7 +12,7 @@ if [ "$HOSTNAME" != "OpenWrt" ]; then
   exit 2
 fi
 
-echo 'Updating root password'
+echo 'Updating root password...'
 passwd <<EOF
 $ROOT_PASSWD
 $ROOT_PASSWD
@@ -18,12 +22,6 @@ HOSTNAME="openwrt"
 echo 'Setting hostname to ' $HOSTNAME
 uci set system.@system[0].hostname="$HOSTNAME"
 uci commit system
-
-echo 'Updating packages...'
-{
-	opkg update
-	opkg install luci luci-ssl tmux vim
-} > /dev/null
 
 echo 'Setting up few ash aliases...'
 cat <<EOT >> /etc/profile
@@ -113,6 +111,8 @@ uci set wireless.radio0.disabled="0"
 uci set wireless.radio1.disabled="0"
 
 uci commit wireless
-echo 'Configuration complete!'
-echo 'Rebooting...'
+echo "======================================="
+echo "	Configuration complete!	     "
+echo "	Rebooting!	     "
+echo "======================================="
 reboot
