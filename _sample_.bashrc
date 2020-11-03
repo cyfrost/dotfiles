@@ -34,7 +34,7 @@ if [ "$SHELL" == "/data/data/com.termux/files/usr/bin/bash" ]; then
 	export IS_TERMUX="true"
 fi
 
-export SRC_EDITOR="code"
+export SRC_EDITOR="vi"
 
 # run java code. usage: jrun <filename.java>
 function jrun(){
@@ -67,7 +67,7 @@ function up_nvm(){
     NVM_COMPARE="${NVM_LATEST_VER:1}"
 
     if [ "$NVM_CURRENT_VER" == "$NVM_COMPARE" ]; then
-        print "NVM is up-to-date!" 
+        print "NVM is up-to-date!"
     else
         print "Updating NVM from v$NVM_CURRENT_VER to v$NVM_COMPARE"
         curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/$NVM_LATEST_VER/install.sh | bash
@@ -84,12 +84,12 @@ function up_node(){
 }
 
 function up_youtube-dl(){
-	print "Updating youtube-dl..." 
+	print "Updating youtube-dl..."
     YTDL_CURRENT_VER="$(youtube-dl --version 2>/dev/null)"
     YTDL_LATEST_VER="$(curl -sL "https://api.github.com/repos/ytdl-org/youtube-dl/releases/latest" | jq -r '.tag_name')"
 
     if [ "$YTDL_CURRENT_VER" == "$YTDL_LATEST_VER" ]; then
-        print "youtube-dl is up-to-date." 
+        print "youtube-dl is up-to-date."
     else
         print "Updating from v$YTDL_CURRENT_VER to v$YTDL_LATEST_VER..."
         tag_name="$(curl -sL "https://api.github.com/repos/ytdl-org/youtube-dl/releases/latest" | jq -r '.tag_name')" && filename="$HOME/youtube-dl" && rm -rf $filename; wget --quiet https://github.com/ytdl-org/youtube-dl/releases/download/$tag_name/youtube-dl -O "$filename"; sudo cp -f "$filename" "/usr/bin/youtube-dl" && sleep 1 && rm -rf $filename && print "Done";
@@ -99,7 +99,7 @@ function up_youtube-dl(){
 function upload_to_github(){
     REPO_NAME="$1"
     SOURCE_FILENAME="$2"
-    
+
     DEST_FILENAME="${SOURCE_FILENAME##*/}"
     print "Uploading file \"$DEST_FILENAME\" to GitHub repo \"$REPO_NAME\""
     cur_dir=$(pwd)
