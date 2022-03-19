@@ -1,0 +1,22 @@
+127.0.0.1  localhost
+::1  localhost
+
+# Sourced for d3ward.github.io
+
+127.0.0.1 analyticsengine.s3.amazonaws.com
+127.0.0.1 affiliationjs.s3.amazonaws.com
+127.0.0.1 advertising-api-eu.amazon.com
+127.0.0.1 api.bugsnag.com
+127.0.0.1 app.bugsnag.com
+127.0.0.1 browser.sentry-cdn.com
+127.0.0.1 app.getsentry.com
+127.0.0.1 pixel.facebook.com
+127.0.0.1 analytics.facebook.com
+127.0.0.1 ads.facebook.com
+127.0.0.1 an.facebook.com
+127.0.0.1 advertising.twitter.com
+127.0.0.1 d.reddit.com
+127.0.0.1 ads.yahoo.com
+127.0.0.1 global.adserver.yahoo.com
+127.0.0.1 ads.yap.yahoo.com
+127.0.0.1 appmetrica.yandex.com
