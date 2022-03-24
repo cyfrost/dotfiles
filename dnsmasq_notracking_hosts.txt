@@ -20,3 +20,6 @@
 127.0.0.1 global.adserver.yahoo.com
 127.0.0.1 ads.yap.yahoo.com
 127.0.0.1 appmetrica.yandex.com
+127.0.0.1 mediavisor.doubleclick.net
+127.0.0.1 widgets.pinterest.com
+127.0.0.1 samsung-com.112.2o7.net
