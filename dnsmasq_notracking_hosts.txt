@@ -23,3 +23,7 @@
 127.0.0.1 mediavisor.doubleclick.net
 127.0.0.1 widgets.pinterest.com
 127.0.0.1 samsung-com.112.2o7.net
+127.0.0.1 https://amazonclix.com
+127.0.0.1 https://browser.sentry-cdn.com
+127.0.0.1 https://app.getsentry.com
+127.0.0.1 https://advertising.twitter.com
