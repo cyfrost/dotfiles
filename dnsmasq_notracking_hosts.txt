@@ -27,3 +27,18 @@
 127.0.0.1 https://browser.sentry-cdn.com
 127.0.0.1 https://app.getsentry.com
 127.0.0.1 https://advertising.twitter.com
+127.0.0.1 https://doubleclick.net/
+127.0.0.1 https://ad.doubleclick.net/
+127.0.0.1 https://ad.doubleclick.net/
+127.0.0.1 https://static.doubleclick.net
+127.0.0.1 https://m.doubleclick.net
+127.0.0.1 https://mediavisor.doubleclick.net
+127.0.0.1 https://media.fastclick.net/
+127.0.0.1 https://advice-ads.s3.amazonaws.com
+127.0.0.1 https://amazonaax.com
+127.0.0.1 https://ads.facebook.com
+127.0.0.1 https://ads.reddit.com
+127.0.0.1 https://ads.youtube.com
+
+
+
